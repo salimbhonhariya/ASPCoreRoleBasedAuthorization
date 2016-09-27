@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B29E4CEC-2F4B-40B6-B525-4B04C51D550F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{50C71107-3DA3-4517-87D4-2E2A69AD9D45}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AuthorizationLab", "src\AuthorizationLab\AuthorizationLab.xproj", "{F5B44689-D1B8-43C2-9F2A-849CA7454EFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5B44689-D1B8-43C2-9F2A-849CA7454EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B44689-D1B8-43C2-9F2A-849CA7454EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B44689-D1B8-43C2-9F2A-849CA7454EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B44689-D1B8-43C2-9F2A-849CA7454EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F5B44689-D1B8-43C2-9F2A-849CA7454EFE} = {B29E4CEC-2F4B-40B6-B525-4B04C51D550F}
+	EndGlobalSection
+EndGlobal
